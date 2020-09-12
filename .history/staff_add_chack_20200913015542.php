@@ -12,7 +12,7 @@ $staff_pass2=htmlspecialchars($staff_pass2,ENT_QUOTES,'UTF-8');
 */
 if($staff_name=='')
 {
-    print('スタッフ名が入力されていません。<br/>');  
+    print('スタッフ名が入力されていません<br/>');  
 }
 else
 {
